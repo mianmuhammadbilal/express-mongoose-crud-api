@@ -46,7 +46,7 @@ Instead of writing raw MongoDB queries, Mongoose allows working with models like
 
 # 📁 Project Structure
 
-`express-mongoose-crud-api/
+```express-mongoose-crud-api/
 │
 ├── controllers/
 │ └── userController.js # Business logic
@@ -63,7 +63,7 @@ Instead of writing raw MongoDB queries, Mongoose allows working with models like
 ├── index.js # Application entry point
 ├── package.json
 ├── .gitignore
-└── README.md`
+└── README.md```
 
 --------
 
@@ -82,13 +82,13 @@ Connects endpoints to controllers.
 
 # 📌 CRUD Operations
 
-`| Method  | Endpoint        | Description        |
+```| Method  | Endpoint        | Description        |
 |---------|----------------|--------------------|
 | POST    | `/users`       | Create a new user  |
 | GET     | `/users`       | Get all users      |
 | GET     | `/users/:id`   | Get single user    |
 | PUT     | `/users/:id`   | Update user        |
-| DELETE  | `/users/:id`   | Delete user        |`
+| DELETE  | `/users/:id`   | Delete user        |```
 
 ## ⚙️ Setup
 
